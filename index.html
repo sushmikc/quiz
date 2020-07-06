@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ninja Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Ninja Quiz</h1>
+        </div>   
+    </div>  
+    <div class="result">
+        <div class="container">
+            <h3>You are <span class="text-primary p-3 display-4">0%</span> ninja!</h3>
+        </div>
+    </div> 
+    <div class="questions py-4">
+        <div class="container">
+            <p>On with the questions...</p>
+            <form class="my-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1. How do you give a ninja direction?
+                    </p>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label class="form-check-label">Show them a map</label>
+                    </div>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">Don't worry, a ninja will find you!</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2. If a ninja has 3 apples, gives 1 to mario and 1 to yoshi, how many does he have left?
+                    </p>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label class="form-check-label">1 apple</label>
+                    </div>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">3 apples and 2 corpses</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3. How do you know when you have met a ninja?
+                    </p>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label class="form-check-label">You'll recognize the outfit</label>
+                    </div>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">The grim reapers will tell you</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4. What is a ninja's favorite array method?
+                    </p>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label class="form-check-label">forEach()</label>
+                    </div>
+                    <div class="form-check my-2 ml-4 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">slice()</label>
+                    </div>
+                </div>
+                <div class="send-answer">
+                    <input type="submit" class="btn btn-light" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>

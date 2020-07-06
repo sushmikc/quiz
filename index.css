@@ -1,0 +1,30 @@
+.header{
+    margin: 50px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    font-style: normal;
+    margin-top: 40px; 
+}
+
+.questions{
+    background-color: rgb(55, 55, 248);
+    height: fit-content;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin: 30px;
+    padding-top: 20px;
+}
+
+.result{
+    color: brown;
+    text-align: center;
+    display: none;
+    background-color: ivory;
+}
